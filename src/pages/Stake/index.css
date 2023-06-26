@@ -46,7 +46,7 @@
     border: 1px solid var(--mainC);
     color: var(--whiteTextC);
     font-weight: 500;
-    background: linear-gradient(270.25deg, rgba(248, 178, 108, 0.37) 0.2%, rgba(247, 178, 108, 0.0481) 99.77%);
+    background: linear-gradient(270.25deg, rgba(19.6, 81.2, 45.9, 0.37) 0.2%, rgba(30, 90, 70, 0.0481) 99.77%);
 }
 
 .stake__info--points{
