@@ -40,11 +40,11 @@ const Launch = () => {
                     <div className="launch__presale--progress">
                         <div className="launch__progress">
                             <div className="launch__progress--step">
-                                <p>2 hours</p>
+                                <p>3 hours</p>
                             </div>
 
                             <div className="launch__progress--step">
-                                <p>22 hours</p>
+                                <p>24 hours</p>
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ const Launch = () => {
                             <div className="progress__bar--inner"></div>
 
                             <p className="progress__bar--text">
-                                4,000 ETH
+                                400 ETH
                             </p>
 
                             <div className="progress__abs--block">
@@ -83,7 +83,7 @@ const Launch = () => {
                                 <div className="progress__bar--abs--item"></div>
                                 
                                 <p className="progress__bar--text">
-                                    2,500 ETH
+                                    250 ETH
                                 </p>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const Launch = () => {
 
                                 <div className="progress__block--value--inner">
                                     <p className="progress__block--value">
-                                        4,000
+                                        400
                                     </p>
 
                                     <div className="eth__inner progress__block--eth--inner">
@@ -112,7 +112,7 @@ const Launch = () => {
 
                                 <div className="progress__block--value--inner">
                                     <p className="progress__block--value">
-                                        5,000
+                                        500000
                                     </p>
 
                                     <div className="eth__inner progress__block--eth--inner">
