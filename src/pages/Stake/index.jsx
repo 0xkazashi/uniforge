@@ -23,7 +23,7 @@ const Stake = () => {
 
                         <div className="stake__info--tags">
                             <div className="stake__info--tag">
-                                wstETH: 81.54$
+                                wstETH: $81.54
                             </div>
 
                             <div className="stake__info--tag">
