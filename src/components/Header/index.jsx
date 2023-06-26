@@ -167,7 +167,7 @@ const Header = ({title}) => {
                 </p>
 
                 <p className="modal__subtitle">
-                    To start using $FRGE
+                    To start using Uniforge
                 </p>
 
                 <div className="connect__content">
