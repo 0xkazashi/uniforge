@@ -13,45 +13,45 @@ import "./index.css";
 const data = [
     {
         name: "FEB",
-        "$FRGE Total Supply": 4000,
-        "Locked $FRGE": 2400,
-        "Staked $FRGE": 3350,
-        "$FRGE Circulating Supply": 1400
+        "FRGE Total Supply": 4000,
+        "Locked FRGE": 2400,
+        "Staked FRGE": 3350,
+        "FRGE Circulating Supply": 1400
     },
     {
         name: "MAR",
-        "$FRGE Total Supply": 3400,
-        "Locked $FRGE": 2200,
-        "Staked $FRGE": 2250,
-        "$FRGE Circulating Supply": 340
+        "FRGE Total Supply": 3400,
+        "Locked FRGE": 2200,
+        "Staked FRGE": 2250,
+        "FRGE Circulating Supply": 340
     },
     {
         name: "APR",
-        "$FRGE Total Supply": 2000,
-        "Locked $FRGE": 400,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 2940
+        "FRGE Total Supply": 2000,
+        "Locked FRGE": 400,
+        "Staked FRGE": 1250,
+        "FRGE Circulating Supply": 2940
     },
     {
         name: "MAY",
-        "$FRGE Total Supply": 2400,
-        "Locked $FRGE": 2900,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 3940
+        "FRGE Total Supply": 2400,
+        "Locked FRGE": 2900,
+        "Staked FRGE": 1250,
+        "FRGE Circulating Supply": 3940
     },
     {
         name: "JUN",
-        "$FRGE Total Supply": 5000,
-        "Locked $FRGE": 2200,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 4940
+        "FRGE Total Supply": 5000,
+        "Locked FRGE": 2200,
+        "Staked FRGE": 1250,
+        "FRGE Circulating Supply": 4940
     },
     {
         name: "JUL",
-        "$FRGE Total Supply": 1400,
-        "Locked $FRGE": 1400,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 40
+        "FRGE Total Supply": 1400,
+        "Locked FRGE": 1400,
+        "Staked FRGE": 1250,
+        "FRGE Circulating Supply": 40
     },
 ];
 
