@@ -128,7 +128,7 @@ const Header = ({title}) => {
 
                         {balanceMenu && <div className="dropdown__menu">
                             <a href="#" className="dropdown__menu--link">
-                                Swap on Defilama
+                                Swap on DefiLlama
 
                                 <Arrow />
                             </a>
@@ -179,7 +179,7 @@ const Header = ({title}) => {
                 </div>
 
                 <p className="modal__terms">
-                    By connecting, I accept Compound's <span>Terms of Service</span>
+                    By connecting, I accept Uniforge's <span>Terms of Service</span>
                 </p>
             </Modal>
 
