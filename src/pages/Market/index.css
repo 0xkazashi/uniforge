@@ -1,0 +1,361 @@
+.bonded__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 5rem;
+}
+
+.bonded__items--wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.bonded__docs{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--whiteTextC);
+    font-size: 2rem;
+    font-weight: 500;
+    border: 1px solid var(--mainC);
+}
+
+.bonded__docs:hover{
+    opacity: 0.7;
+}
+
+.bonded__docs--arrow{
+    width: 29px;
+    height: 29px;
+    border-radius: 4px;
+    background: var(--buttonC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s linear;
+}
+
+.bonded__docs--arrow svg{
+    width: 10px;
+}
+
+.bonded__items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.bonded__item{
+    width: calc(100% / 3 - 50px / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    border: 1px solid var(--mainC);
+    border-radius: 20px;
+    gap: 15px;
+}
+
+.bonded__item--title{
+    width: 100%;
+    color: var(--iconC);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bonded__item--text{
+    color: var(--whiteTextC);
+    line-height: 170%;
+}
+
+.bonded__item--imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin-top: auto;
+}
+
+.bonded__item--imgs--title{
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--iconC);
+    font-weight: 700;
+}
+
+.bonded__item--eth--inner{
+    width: 40px;
+    height: 40px;
+}
+
+.bonded__item--imgs--content{
+    display: flex;
+    align-items: center;
+}
+
+.bonded__item--img{
+    width: 47px;
+}
+
+.bonded__item--img path{
+    fill: var(--iconC)
+}
+
+.bonded__item--img:not(:first-child){
+    margin-left: -1rem;
+}
+
+.bonded__total--inner{
+    padding: 4rem;
+    border-radius: 20px;
+    background: var(--bgC);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 3px solid var(--mainC);
+    transition: .2s linear;
+}
+
+.bonded__total--val--inner{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bonded__total--title{
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--mainC);
+}
+
+.bonded__total--val{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--whiteTextC);
+}
+
+.bonded__total--eth--inner{
+    width: 30px;
+    height: 30px;
+}
+
+.bonded__table{
+    width: 100%;
+    border-radius: 20px;
+    padding: 2rem;
+    background: var(--bgC);
+    transition: .2s linear;
+}
+
+.modal__bond{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.modal__bond--title{
+    font-size: 4.2rem;
+    font-weight: 500;
+    color: var(--iconC);
+}
+
+.modal__bond--content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.modal__bond--total--content{
+    width: 100%;
+    padding: 3rem 4rem;
+    border-radius: 20px;
+    background: var(--bgC2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.modal__bond--total--item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal__bond--total--value{
+    width: 50%;
+    color: var(--whiteTextC);
+    font-weight: 500;
+}
+
+.modal__bond--button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background: var(--mainC);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1b1b1b;
+}
+
+.modal__bond--button:hover{
+    opacity: 0.7;
+}
+
+.modal__bond--price--inner{
+    width: 100%;
+    background: var(--bgC2);
+    padding: 3rem 4rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.modal__bond--price--item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal__bond--price--block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal__bond--price--title{
+    text-align: center;
+    color: var(--tableC);
+}
+
+.modal__bond--price--value{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--whiteTextC);
+    text-align: center;
+}
+
+.modal__bond--step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    padding: 0rem 3rem;
+}
+
+.modal__bond--step--eth--inner{
+    width: 40px;
+    height: 40px;
+}
+
+.modal__bond--step--text{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--iconC);
+}
+
+.modal__bond--step--icon{
+    width: 40px;
+}
+
+.modal__bond--step--icon path{
+    fill: var(--iconC);
+}
+
+@media (max-width: 1320px) {
+    .bonded__item{
+        width: calc(100% / 2 - 25px / 2);
+    }
+}
+@media (max-width: 998px) {
+    .bonded__items{
+        gap: 15px;
+    }
+
+    .bonded__item{
+        width: 100%;
+        padding: 2rem 1.5rem;
+    }
+
+    .bonded__total--title, .bonded__total--val{
+        font-size: 2.2rem;
+    }
+
+    .bonded__total--inner{
+        padding: 2rem 3rem;
+    }
+
+    .modal__bond--title{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 600px) {
+    .modal__bond--step{
+        padding: 0rem;
+    }
+}
+@media (max-width: 480px) {
+    .bonded__item--title{
+        font-size: 1.6rem;
+    }
+
+    .bonded__item--text{
+        font-size: 1.4rem;
+    }
+
+    .bonded__total--inner{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .modal__bond--title{
+        font-size: 2.2rem;
+    }
+
+    .modal__bond--total--item{
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .modal__bond--total--value{
+        width: 100%;
+        text-align: center;
+    }
+
+    .modal__bond--total--content{
+        gap: 15px;
+    }
+}
+@media (max-width: 430px) {
+    .modal__bond--price--item:first-child{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .modal__bond--price--inner{
+        padding: 2rem 1.5rem;
+    }
+}

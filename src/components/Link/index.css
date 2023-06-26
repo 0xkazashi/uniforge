@@ -1,0 +1,37 @@
+.launch__link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--whiteTextC);
+}
+
+.launch__link:hover{
+    opacity: 0.5;
+}
+
+.launch__link--arrow{
+    transition: .2s linear;
+    width: 31px;
+    height: 31px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--iconC);
+}
+
+.launch__link--arrow svg{
+    width: 12px;
+}
+
+.launch__link--arrow svg path{
+    fill: var(--navBg)
+}
+
+@media (max-width: 480px) {
+    .launch__link{
+        font-size: 1.6rem;
+    }
+}

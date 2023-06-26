@@ -1,0 +1,95 @@
+.connect__item{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bgC);
+    border: 1px solid var(--borderC);
+}
+
+.connect__item--button{
+    width: 42px;
+    height: 42px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--buttonC);
+}
+
+.connect__item--button:hover{
+    opacity: 0.7;
+}
+
+.connect__item--button svg{
+    width: 12px;
+    flex-shrink: 0;
+}
+
+.connect__item--wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.connect__item--wrap--icon--inner{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connect__item--wrap--icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.connect__item--wrap--text{
+    color: var(--whiteTextC);
+    font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    .modal__content{
+        padding: 4rem 2rem;
+    }
+
+    .modal__title{
+        font-size: 3rem;
+    }
+
+    .modal__subtitle{
+        margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .connect__content{
+        margin-top: 3.5rem;
+        gap: 10px;
+    }
+
+    .connect__item--wrap--text{
+        font-size: 1.6rem;
+    }
+
+    .connect__item--wrap--icon--inner{
+        width: 30px;
+        height: 30px;
+    }
+
+    .connect__item--wrap{
+        gap: 8px;
+    }
+
+    .connect__item--button{
+        width: 32px;
+        height: 32px;
+    }
+
+    .connect__item{
+        padding: 1rem 1.6rem;
+    }
+}

@@ -1,0 +1,31 @@
+.navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.navigation__link{
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--textC);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navigation__link:hover{
+    background: var(--navBg);
+}
+
+.navigation__link svg{
+    width: 24px;
+}
+
+.navigation__link svg path{
+    fill: var(--iconC);
+}

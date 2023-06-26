@@ -1,0 +1,347 @@
+.launch__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 5rem;
+}
+
+.launch__amount--inner, .launch__text--inner, .launch__presale{
+    width: 100%;
+    background: var(--bgC);
+    padding: 2.5rem 10rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.launch__text--inner{
+    gap: 35px;
+}
+
+.text{
+    font-size: 1.5rem;
+    color: var(--tableC);
+}
+
+.launch__link--inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.launch__presale{
+    padding: 3.5rem 10rem;
+    gap: 40px;
+}
+
+.launch__presale--title{
+    width: 100%;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--mainC);
+    text-align: center;
+}
+
+.launch__presale--progress{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.launch__progress--tags{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.launch__progress--tag{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--whiteTextC);
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.launch__progress--tag:before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--mainC);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.launch__progress--tag:last-child:before{
+    background: var(--option);
+}
+
+.launch__progress{
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.launch__progress--step{
+    width: 30%;
+    background: var(--mainC);
+    padding: 1.5rem 1rem;
+}
+
+.launch__progress--step p{
+    font-weight: 500;
+    color: var(--whiteTextC);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.launch__progress--step:last-child{
+    width: 70%;
+    background: var(--option);
+}
+
+.launch__connect{
+    width: 100%;
+    padding: 3.5rem 2.5rem;
+    border-radius: 15px;
+    border-bottom: 3px solid var(--mainC);
+    background: var(--bgC);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.launch__connect--button{
+    padding: 1rem 3.1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1b1b1b;
+    background: var(--mainC);
+}
+
+.launch__connect--button:hover{
+    opacity: 0.7;
+}
+
+.launch__connect--content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.launch__title, .launch__text{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--whiteTextC);
+}
+
+.launch__text{
+    font-weight: 500;
+}
+
+.launch__connect--icon{
+    width: 45px;
+}
+
+.progress__block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    border-radius: 20px;
+    background: var(--bgC2);
+    padding: 3rem 2rem;
+}
+
+.progress__title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--whiteTextC);
+}
+
+.progress__block--points{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.progress__block--point{
+    width: calc(100% / 2 - 24px / 2);
+    border-radius: 20px;
+    background: var(--navBg);
+    padding: 2.4rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.progress__block--title{
+    font-weight: 500;
+    color: var(--whiteTextC);
+}
+
+.progress__block--value--inner{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress__block--value{
+    font-weight: 700;
+    color: var(--iconC);
+    font-size: 2rem;
+}
+
+.progress__block--eth--inner{
+    width: 18px;
+    height: 18px;
+}
+
+.progress__block--coin{
+    width: 20px;
+}
+
+.progress__bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    position: relative;
+}
+
+.progress__bar--inner{
+    width: 100%;
+    border-radius: 50px;
+    height: 21px;
+    background: var(--iconC);
+}
+
+.progress__bar--text{
+    color: var(--whiteTextC);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.progress__abs--block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+.progress__bar--abs--item{
+    width: 5px;
+    height: 21px;
+    background: var(--bgC2);
+}
+
+.launch__eth{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 998px) {
+    .launch__title, .launch__text{
+        font-size: 1.6rem;
+    }
+
+    .launch__connect--content{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+@media (max-width: 850px) {
+    .launch__amount--inner, .launch__text--inner, .launch__presale{
+        padding: 3rem;
+    }
+
+    .launch__progress--step p, .launch__progress--tag{
+        font-size: 1.6rem;
+    }
+
+    .launch__presale--title{
+        font-size: 2.2rem;
+    }
+
+    .launch__connect{
+        padding: 2rem 1.5rem;
+    }
+
+    .progress__title{
+        font-size: 2rem;
+    }
+
+    .progress__block{
+        padding: 2rem 1.5rem;
+    }
+}
+@media (max-width: 560px) {
+    .progress__block--point{
+        width: 100%;
+        padding: 1.6rem 2.4rem;
+    }
+
+    .progress__block--points{
+        gap: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .launch__amount--inner, .launch__text--inner, .launch__presale{
+        padding: 2rem;
+    }
+
+    .launch__text--inner{
+        gap: 20px;
+    }
+
+    .launch__content{
+        margin-top: 2.5rem;
+    }
+
+    .launch__progress--step p{
+        display: none;
+    }
+
+    .launch__progress--tags{
+        gap: 10px;
+    }
+
+    .launch__connect--button{
+        font-size: 1.6rem;
+    }
+
+    .progress__title{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 430px) {
+    .progress__abs--block{
+        left: 30%;
+        align-items: flex-end;
+    }
+}

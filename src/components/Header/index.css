@@ -1,0 +1,282 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.header__content{
+    display: flex;
+    gap: 30px;
+}
+
+.header__title{
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--whiteTextC);
+    padding-left: 2.5rem;
+}
+
+.header__button--wrapper{
+    position: relative;
+    flex: 1;
+}
+
+.header__button{
+    color: var(--whiteTextC);
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 1rem 2.1rem;
+    border-radius: 10px;
+    border: 1px solid var(--mainC);
+    font-weight: 500;
+    font-size: 2rem;
+    height: 100%;
+}
+
+.header__button:hover{
+    background: rgba(247, 178, 108, .3);
+}
+
+.header__button svg{
+    width: 15px;
+}
+
+.header__button svg path{
+    fill: var(--whiteTextC);
+}
+
+.button__balance--logo{
+    width: 35px;
+}
+
+.button__balance{
+    padding: 5px 20px 5px 7px;
+}
+
+.button__connect{
+    background: linear-gradient(270.25deg, #FB5E1C 0.2%, rgba(247, 178, 108, 0.13) 99.77%);
+    gap: 14px;
+}
+
+.button__connect:hover{
+    opacity: .7;
+    background: linear-gradient(270.25deg, #FB5E1C 0.2%, rgba(247, 178, 108, 0.13) 99.77%);
+}
+
+.button__connect svg{
+    width: 25px;
+}
+
+.dropdown__menu{
+    width: 240px;
+    padding: 15px 5px;
+    border-radius: 20px;
+    border: 1px solid var(--mainC);
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 0;
+    background: var(--bgC);
+    transition: .2s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 5;
+}
+
+.dropdown__menu--link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--whiteTextC);
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.dropdown__menu--link:hover{
+    background: var(--mainC);
+}
+
+.dropdown__menu--link svg{
+    width: 12px;
+}
+
+.dropdown__menu--link svg path{
+    fill: var(--iconC)
+}
+
+.menu__button{
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--mainC);
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__button svg{
+    width: 24px;
+    flex-shrink: 0;
+}
+
+.menu__button svg path{
+    stroke: var(--iconC);
+}
+
+.profile__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile__img{
+    width: 75px;
+}
+
+.profile__title{
+    color: var(--whiteTextC);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.profile__text{
+    font-size: 1.4rem;
+    color: var(--iconC);
+    text-align: center;
+}
+
+.profile__buttons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile__button{
+    width: calc(100% / 2 - 20px / 2);
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+    background: var(--bgC2);
+    color: var(--whiteTextC);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.profile__button:hover{
+    opacity: 0.7;
+}
+
+.profile__button svg{
+    width: 20px;
+}
+
+.profile__button svg path{
+    fill: var(--iconC);
+}
+
+@media (max-width: 1200px) {
+    .header__content{
+        gap: 15px;
+    }
+
+    .header__button{
+        font-size: 1.6rem;
+    }
+
+    .header__title{
+        padding-left: 0;
+    }
+}
+@media (max-width: 998px) {
+    .header{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 850px) {
+    .menu__button{
+        display: flex;
+    }
+
+    .header__button{
+        padding: 0.6rem 1.4rem;
+    }
+
+    .button__balance--logo{
+        width: 26px;
+    }
+}
+@media (max-width: 560px) {
+    .dropdown__menu--link{
+        font-size: 1.4rem;
+    }
+
+    .dropdown__menu--link svg{
+        width: 10px;
+    }
+
+    .dropdown__menu{
+        width: 200px;
+        top: calc(100% + 10px);
+    }
+
+    .header__button--wrapper{
+        display: none;
+    }
+
+    .header__content{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navigation__link{
+        padding: 8px 10px;
+        font-size: 1.4rem;
+    }
+
+    .navigation__link svg{
+        width: 18px;
+    }
+
+    .changer__content{
+        width: 70px;
+        height: 30px;
+    }
+
+    .changer__content:before{
+        width: 24px;
+        height: 24px;
+        left: 3px;
+    }
+
+    .changer__content--icon{
+        width: 20px;
+    }
+
+    .header__title{
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 375px) {
+    .profile__button{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .profile__buttons{
+        gap: 10px;
+    }
+}
