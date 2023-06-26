@@ -157,7 +157,7 @@ const Market = () => {
                             </p>
 
                             <p className="bonded__item--text">
-                                Once you have received a Bond, you must wait
+                                Once you have received a bond, you must wait
                                 until the designated vesting period is completed
                                 before you can activate it.
                             </p>
@@ -180,7 +180,7 @@ const Market = () => {
 
                             <p className="bonded__item--text">
                                 To receive a above-market-rate return on
-                                investment, locate the Bond of your choice that
+                                investment, locate the bond of your choice that
                                 has a favorable discount rate.
                             </p>
 
