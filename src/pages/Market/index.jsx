@@ -317,7 +317,7 @@ const Market = () => {
 
                             <div className="modal__bond--total--item">
                                 <p className="modal__bond--total--value">
-                                    Vest term
+                                    Vesting
                                 </p>
 
                                 <p className="modal__bond--total--value">
