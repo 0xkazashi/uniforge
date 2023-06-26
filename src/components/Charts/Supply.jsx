@@ -13,45 +13,45 @@ import "./index.css";
 const data = [
     {
         name: "FEB",
-        "Kairos Total Supply": 4000,
-        "Locked Kairos": 2400,
-        "Staked Kairos": 3350,
-        "Kairos Circulating Supply": 1400
+        "$FRGE Total Supply": 4000,
+        "Locked $FRGE": 2400,
+        "Staked $FRGE": 3350,
+        "$FRGE Circulating Supply": 1400
     },
     {
         name: "MAR",
-        "Kairos Total Supply": 3400,
-        "Locked Kairos": 2200,
-        "Staked Kairos": 2250,
-        "Kairos Circulating Supply": 340
+        "$FRGE Total Supply": 3400,
+        "Locked $FRGE": 2200,
+        "Staked $FRGE": 2250,
+        "$FRGE Circulating Supply": 340
     },
     {
         name: "APR",
-        "Kairos Total Supply": 2000,
-        "Locked Kairos": 400,
-        "Staked Kairos": 1250,
-        "Kairos Circulating Supply": 2940
+        "$FRGE Total Supply": 2000,
+        "Locked $FRGE": 400,
+        "Staked $FRGE": 1250,
+        "$FRGE Circulating Supply": 2940
     },
     {
         name: "MAY",
-        "Kairos Total Supply": 2400,
-        "Locked Kairos": 2900,
-        "Staked Kairos": 1250,
-        "Kairos Circulating Supply": 3940
+        "$FRGE Total Supply": 2400,
+        "Locked $FRGE": 2900,
+        "Staked $FRGE": 1250,
+        "$FRGE Circulating Supply": 3940
     },
     {
         name: "JUN",
-        "Kairos Total Supply": 5000,
-        "Locked Kairos": 2200,
-        "Staked Kairos": 1250,
-        "Kairos Circulating Supply": 4940
+        "$FRGE Total Supply": 5000,
+        "Locked $FRGE": 2200,
+        "Staked $FRGE": 1250,
+        "$FRGE Circulating Supply": 4940
     },
     {
         name: "JUL",
-        "Kairos Total Supply": 1400,
-        "Locked Kairos": 1400,
-        "Staked Kairos": 1250,
-        "Kairos Circulating Supply": 40
+        "$FRGE Total Supply": 1400,
+        "Locked $FRGE": 1400,
+        "Staked $FRGE": 1250,
+        "$FRGE Circulating Supply": 40
     },
 ];
 
