@@ -345,14 +345,14 @@ const Stake = () => {
 
                             <div className="stake__stake--text--border">
                                 <p className="text">
-                                    Unstake $vFRGE will automatically claim any accumulated rewards.
+                                    Unstaking $vFRGE will automatically claim any accumulated rewards.
                                 </p>
                             </div>
                         </div>
 
                         <div className="stake__stake--form">
                             <p className="subtitle center w100">
-                                You can make unstake it in 10 days
+                                You can unstake in 10 days
                             </p>
 
                             <InputBlock placeholder="Redeem" />
