@@ -380,7 +380,7 @@ const Stake = () => {
                     {tab === "unlocked" && <div className="ulocked__content">
                         <div className="ulocked__inner">
                             <p className="subtitle">
-                                Locked Kairos
+                                Locked $FRGE
                             </p>
 
                             <div className="ulocked__table">
