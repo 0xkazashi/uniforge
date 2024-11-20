@@ -27,7 +27,7 @@ const InputBlock = ({value, setValue, placeholder = "Amount", tyche = false}) =>
                     </div>
                     : <img src="/assets/img/logo-small.png" alt="logo" className="input__block--cur--icon" />}
 
-                    {tyche ? "$vFRGE" : "$FRGE"}
+                    {tyche ? "$vPAYFE" : "$PAYFE"}
                 </div>
             </div>
         </div>
