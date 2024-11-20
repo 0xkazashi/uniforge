@@ -52,7 +52,7 @@ const Market = () => {
                     <TableItem
                         bond="ETH"
                         icon="/assets/img/eth.svg"
-                        asset="$FRGE"
+                        asset="$PAYFE"
                         discount="-21.91%"
                         price="$856.93"
                         purchased="23.90"
@@ -61,7 +61,7 @@ const Market = () => {
                     <TableItem
                         bond="wsETH"
                         icon="/assets/img/cicle.svg"
-                        asset="$FRGE"
+                        asset="$PAYFE"
                         discount="-27.61%"
                         price="$848.29"
                         purchased="15.15"
@@ -69,7 +69,7 @@ const Market = () => {
                     <TableItem
                         bond="ETH"
                         icon="/assets/img/eth.svg"
-                        asset="$FRGE"
+                        asset="$PAYFE"
                         discount="-21.78%"
                         price="$856.48"
                         purchased="52.78"
@@ -77,7 +77,7 @@ const Market = () => {
                     <TableItem
                         bond="GMX"
                         icon="/assets/img/gmx.svg"
-                        asset="$FRGE"
+                        asset="$PAYFE"
                         discount="-24.02"
                         price="$856.93"
                         purchased="23.90"
@@ -100,7 +100,7 @@ const Market = () => {
                     <TableItem
                         bond="ETH"
                         icon="/assets/img/eth.svg"
-                        asset="$FRGE"
+                        asset="$PAYFE"
                         discount="-12.32%"
                         price="$863.44"
                         purchased="14.57"
@@ -108,7 +108,7 @@ const Market = () => {
                     <TableItem
                         bond="ankrETH"
                         icon="/assets/img/cicle.svg"
-                        asset="$FRGE"
+                        asset="$PAYFE"
                         discount="-"
                         price="-"
                         purchased="15.15"
