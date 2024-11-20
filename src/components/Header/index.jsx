@@ -140,7 +140,7 @@ const Header = ({title}) => {
                             </a>
 
                             <a href="#" className="dropdown__menu--link">
-                                Add $FRGE to Wallet
+                                Add $PAYFE to Wallet
 
                                 <Arrow />
                             </a>
@@ -167,7 +167,7 @@ const Header = ({title}) => {
                 </p>
 
                 <p className="modal__subtitle">
-                    To start using Uniforge
+                    To start using Payfe
                 </p>
 
                 <div className="connect__content">
