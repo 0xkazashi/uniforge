@@ -19,7 +19,7 @@ const Launch = () => {
                         </div>
 
                         <p className="launch__title">
-                            0 $vFRGE
+                            0 $vPAYFE
                         </p>
 
                         <p className="launch__text">
@@ -34,7 +34,7 @@ const Launch = () => {
 
                 <div className="launch__presale">
                     <p className="launch__presale--title">
-                        The LBP has ended.
+                        The pool has ended.
                     </p>
 
                     <div className="launch__presale--progress">
@@ -107,7 +107,7 @@ const Launch = () => {
 
                             <div className="progress__block--point">
                                 <p className="progress__block--title">
-                                    Total $vFRGE for sale
+                                    Total $vPAYFE for sale
                                 </p>
 
                                 <div className="progress__block--value--inner">
@@ -134,20 +134,20 @@ const Launch = () => {
 
                 <div className="launch__text--inner">
                     <p className="text">
-                    The Uniforge protocol operates on a fair launch model, where 100% of the revenue generated is distributed to $FRGE token holders with no involvement from VC. <span className="bold">The Uniforge team will not retain any portion of the funds raised during the public sale. All funds will be allocated according to the project's established plan and goals.</span>
+                    The Payfe protocol operates on a fair launch model, where 100% of the revenue generated is distributed to $PAYFE token holders with no involvement from VC. <span className="bold">The Payfe team will not retain any portion of the funds raised during the public sale. All funds will be allocated according to the project's established plan and goals.</span>
                     </p>
 
                     <p className="text">
-                        As a token staker, you can expect to receive returns that are significantly higher than other LSD assets, such as ETH staking. By staking and locking up $FRGE, you can earn a yearly return ranging from 10% to 30% in ETH, in addition to extra rewards in the form of $vFRGE.
+                        As a token staker, you can expect to receive returns that are significantly higher than other LSD assets, such as ETH staking. By staking and locking up $PAYFE, you can earn a yearly return ranging from 10% to 30% in ETH, in addition to extra rewards in the form of $vPAYFE.
                     </p>
 
                     <p className="text">
-                        For the latest updates and accurate information regarding the claiming of $FRGE tokens, please follow the official announcements.
+                        For the latest updates and accurate information regarding the claiming of $PAYFE tokens, please follow the official announcements.
                     </p>
 
                     <div className="launch__link--inner">
-                        <Link text="$FRGE Contract" />
-                        <Link text="$vFRGE Contract" />
+                        <Link text="$PAYFE Contract" />
+                        <Link text="$vPAYFE Contract" />
                         <Link text="Launch Contract" />
                         <Link text="Treasury Contract" />
                     </div>
