@@ -12,32 +12,32 @@ import "./index.css";
 
 const data = [
     {
-        name: "FEB",
+        name: "DEC",
         "Market Cap": 3000,
         "Circulation Market Cap": 2400,
     },
     {
-        name: "MAR",
+        name: "JAN",
         "Market Cap": 3100,
         "Circulation Market Cap": 1398,
     },
     {
-        name: "APR",
+        name: "FEB",
         "Market Cap": 3200,
         "Circulation Market Cap": 1800,
     },
     {
-        name: "MAY",
+        name: "MAR",
         "Market Cap": 3680,
         "Circulation Market Cap": 1908,
     },
     {
-        name: "JUN",
+        name: "APR",
         "Market Cap": 3890,
         "Circulation Market Cap": 1800,
     },
     {
-        name: "JUL",
+        name: "MAY",
         "Market Cap": 3390,
         "Circulation Market Cap": 2800,
     },
