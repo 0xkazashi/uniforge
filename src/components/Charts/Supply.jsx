@@ -12,46 +12,46 @@ import "./index.css";
 
 const data = [
     {
-        name: "FEB",
-        "$FRGE Total Supply": 4000,
-        "Locked $FRGE": 2400,
-        "Staked $FRGE": 3350,
+        name: "DEC",
+        "$PAYFE Total Supply": 4000,
+        "Locked $PAYFE": 2400,
+        "Staked $PAYFE": 3350,
         "$FRGE Circulating Supply": 1400
     },
     {
+        name: "JAN",
+        "$PAYFE Total Supply": 3400,
+        "Locked $PAYFE": 2200,
+        "Staked $PAYFE": 2250,
+        "$PAYFE Circulating Supply": 340
+    },
+    {
+        name: "FEB",
+        "$PAYFE Total Supply": 2000,
+        "Locked $PAYFE": 400,
+        "Staked $PAYFE": 1250,
+        "$PAYFE Circulating Supply": 2940
+    },
+    {
         name: "MAR",
-        "$FRGE Total Supply": 3400,
-        "Locked $FRGE": 2200,
-        "Staked $FRGE": 2250,
-        "$FRGE Circulating Supply": 340
+        "$PAYFE Total Supply": 2400,
+        "Locked $PAYFE": 2900,
+        "Staked $PAYFE": 1250,
+        "$PAYFE Circulating Supply": 3940
     },
     {
         name: "APR",
-        "$FRGE Total Supply": 2000,
-        "Locked $FRGE": 400,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 2940
+        "$PAYFE Total Supply": 5000,
+        "Locked $PAYFE": 2200,
+        "Staked $PAYFE": 1250,
+        "$PAYFE Circulating Supply": 4940
     },
     {
         name: "MAY",
-        "$FRGE Total Supply": 2400,
-        "Locked $FRGE": 2900,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 3940
-    },
-    {
-        name: "JUN",
-        "$FRGE Total Supply": 5000,
-        "Locked $FRGE": 2200,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 4940
-    },
-    {
-        name: "JUL",
-        "$FRGE Total Supply": 1400,
-        "Locked $FRGE": 1400,
-        "Staked $FRGE": 1250,
-        "$FRGE Circulating Supply": 40
+        "$PAYFE Total Supply": 1400,
+        "Locked $PAYFE": 1400,
+        "Staked $PAYFE": 1250,
+        "$PAYFE Circulating Supply": 40
     },
 ];
 
@@ -116,7 +116,7 @@ const Supply = () => {
 
                 <Area
                     type="monotone"
-                    dataKey="$FRGE Total Supply"
+                    dataKey="$PAYFE Total Supply"
                     stackId="1"
                     stroke="#F9B26C"
                     fill="rgba(249, 178, 108, .5)"
@@ -125,7 +125,7 @@ const Supply = () => {
 
                 <Area
                     type="monotone"
-                    dataKey="Locked $FRGE"
+                    dataKey="Locked $PAYFE"
                     stackId="1"
                     stroke="#FFEBD7"
                     fill="rgba(255, 235, 215, .5)"
@@ -134,7 +134,7 @@ const Supply = () => {
 
                 <Area
                     type="monotone"
-                    dataKey="Staked $FRGE"
+                    dataKey="Staked $PAYFE"
                     stackId="1"
                     stroke="#50D1DC"
                     fill="rgba(80, 209, 220, .5)"
@@ -143,7 +143,7 @@ const Supply = () => {
 
                 <Area
                     type="monotone"
-                    dataKey="$FRGE Circulating Supply"
+                    dataKey="$PAYFE Circulating Supply"
                     stackId="1"
                     stroke="#FFF176"
                     fill="rgba(255, 241, 118, .5)"
