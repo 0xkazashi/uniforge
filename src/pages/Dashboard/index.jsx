@@ -17,11 +17,11 @@ const Dashboard = () => {
                 <div className="dashboard__item stats__wrap">
                     <StatsItem title="Market Cap" value="6,061.66" eth />
                     <StatsItem title="Circulating Market Cap" value="124.66" eth />
-                    <StatsItem title="Staked $FRGE" value="1,061.56" />
-                    <StatsItem title="Locked $FRGE" value="1,061.56" />
-                    <StatsItem title="$FRGE Price" value="0.0145" eth />
+                    <StatsItem title="Staked $PAYFE" value="1,061.56" />
+                    <StatsItem title="Locked $PAYFE" value="1,061.56" />
+                    <StatsItem title="$PAYFE Price" value="0.0145" eth />
                     <StatsItem title="Treasure ETH" value="5,181.66" eth />
-                    <StatsItem title="$FRGE Total Supply" value="19,061.66" />
+                    <StatsItem title="$PAYFE Total Supply" value="19,061.66" />
                     <StatsItem title="Total Payout" value="599.66" eth />
                 </div>
 
@@ -37,7 +37,7 @@ const Dashboard = () => {
 
                 <div className="dashboard__item chart__wrap">
                     <p className="chart__title">
-                        $FRGE Supply
+                        $PAYFE Supply
                     </p>
 
                     <div className="chart__inner">
@@ -47,7 +47,7 @@ const Dashboard = () => {
 
                 <div className="dashboard__item chart__wrap">
                     <p className="chart__title">
-                        $vFRGE Supply
+                        $vPAYFE Supply
                     </p>
 
                     <div className="chart__inner">
@@ -58,7 +58,7 @@ const Dashboard = () => {
 
             <div className="content__copy">
                 <p className="content__copy--text">
-                    &copy; 2023 Uniforge Network
+                    &copy; 2024 Payfe
                 </p>
             </div>
         </>
